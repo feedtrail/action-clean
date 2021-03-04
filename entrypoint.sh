@@ -2,8 +2,6 @@
 
 set -e # fail on error
 
-whoami
-pwd
-ls -la
+find . -type f -name ".*"
 rm -rf *
 ls -la
